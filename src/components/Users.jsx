@@ -3,7 +3,7 @@ import User from "./UserTable";
 import { Button, Box, Stack } from "@mui/material";
 import SideBar from "./Sidebar";
 import Nav from "./Nav";
-import axios from "./api/axios";
+import axios from "../api/axios";
 import { useDispatch, useSelector } from "react-redux";
 import { useNavigate } from "react-router-dom";
 import Modal from "./Modal";

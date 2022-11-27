@@ -4,7 +4,7 @@ import { Button, Box, Stack, InputBase } from "@mui/material";
 import { styled, alpha } from "@mui/material/styles";
 import SideBar from "./Sidebar";
 import Nav from "./Nav";
-import axios from "./api/axios";
+import axios from "../api/axios";
 import { useSelector, useDispatch } from "react-redux";
 import GrpTable from "./GroupTable";
 import { handleData, handleFilterData } from "./actions/actionTypes";

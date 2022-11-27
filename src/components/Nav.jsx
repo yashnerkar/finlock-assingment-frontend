@@ -14,7 +14,7 @@ import Button from "@mui/material/Button";
 import Stack from "@mui/material/Stack";
 import { useSelector, useDispatch } from "react-redux";
 import { useNavigate } from "react-router-dom";
-import axios from "./api/axios";
+import axios from "../api/axios";
 import {
   handleSearch,
   handleData,

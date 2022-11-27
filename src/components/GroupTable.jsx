@@ -7,7 +7,7 @@ import TableContainer from "@mui/material/TableContainer";
 import TableHead from "@mui/material/TableHead";
 import TablePagination from "@mui/material/TablePagination";
 import TableRow from "@mui/material/TableRow";
-import axios from "./api/axios";
+import axios from "../api/axios";
 import { useSelector } from "react-redux";
 const columns = [
   { id: "grpID", label: "Group ID", minWidth: 170, align: "center" },

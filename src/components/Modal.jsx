@@ -8,7 +8,7 @@ import Modal from "@mui/material/Modal";
 import InputBase from "@mui/material/InputBase";
 import SelectOrg from "./SelectOrg";
 import SelectGrp from "./SelectGrp";
-import axios from "./api/axios";
+import axios from "../api/axios";
 import { useDispatch } from "react-redux";
 import { handleFilterData } from "./actions/actionTypes";
 
