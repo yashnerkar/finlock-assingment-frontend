@@ -7,7 +7,7 @@ import Group from "./components/Groups";
 import Login from "./components/Login";
 import { useDispatch } from "react-redux";
 import { handleData, handleFilterData } from "./components/actions/actionTypes";
-import axios from "axios";
+import axios from "./api/axios";
 
 function App() {
   // const [user, setUser] = useState({ auth: false });
